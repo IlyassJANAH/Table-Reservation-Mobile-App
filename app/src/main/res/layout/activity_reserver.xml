@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_marginBottom="20dp"
+           >
+           <TextView
+               android:id="@+id/date"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="date"
+               android:layout_gravity="center_vertical"/>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_marginLeft="40dp"
+               >
+               <TextView
+                   android:id="@+id/nom_rest"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="nomRestau"
+                   android:textSize="17dp"
+
+                   />
+               <TextView
+                   android:id="@+id/nb_pers"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="table pour 10 personnes"
+                   android:layout_marginTop="5dp"
+                   android:drawableLeft="@drawable/ic_person_black_24dp"
+                   android:drawablePadding="5dp"
+                   />
+               <TextView
+                   android:id="@+id/heure_res"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="18:45"
+                   android:layout_marginTop="5dp"
+                   android:drawableLeft="@drawable/ic_access_time_black_24dp"
+                   android:drawablePadding="5dp"
+                   />
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+
+
+        <!--  Name Label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Quelle est l'occasion ?"
+            android:layout_marginBottom="10dp"
+            />
+<HorizontalScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="none"
+    android:layout_marginBottom="15dp">
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="90dp"
+            android:layout_height="35dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/btn_radio_back"
+            android:text="Anniversaire"
+            android:padding="5dp"
+
+            />
+
+        <RadioButton
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_radio_back"
+            android:id="@+id/radio1"
+            android:layout_width="115dp"
+            android:layout_height="35dp"
+            android:padding="5dp"
+            android:button="@android:color/transparent"
+            android:text="Repas d'affaires" />
+
+        <RadioButton
+            android:layout_marginLeft="5dp"
+            android:id="@+id/radio2"
+            android:layout_width="135dp"
+            android:layout_height="35dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/btn_radio_back"
+            android:text="Occasion spéciales"
+            android:padding="5dp"/>
+    </RadioGroup>
+</HorizontalScrollView>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_nom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:hint="Demandes spéciales (facultatif)" />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <!-- Email Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:hint="Téléphone" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Password Label -->
+
+
+        <!-- Signup Button -->
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_Reserver"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:text="Réserver"
+            android:background="@drawable/btn_rounded"
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>

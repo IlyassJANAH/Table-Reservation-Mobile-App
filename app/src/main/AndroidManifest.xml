@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lenovo.pfa_project">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:label="test">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.ReservationsActivity" />
+        <activity android:name=".Activities.ProfileActivity" />
+        <activity
+            android:name=".Activities.RestaurantActivity"
+            android:label="@string/title_activity_restaurant"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Activities.ReserverActivity" />
+        <activity android:name=".Activities.Create_AccountActivity" />
+        <activity android:name=".Activities.MainActivity" />
+        <activity android:name=".Activities.MainGerantActivity" />
+        <activity android:name=".Activities.DetailReservActivity" />
+        <activity android:name=".Activities.PlatsActivity" />
+        <activity android:name=".Activities.Reservation_ClientActivity"></activity>
+    </application>
+
+</manifest>

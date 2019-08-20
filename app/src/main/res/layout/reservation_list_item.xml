@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+
+            <TextView
+                android:id="@+id/restaurant_name_resact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tonico Cafe"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp">
+                <ImageView
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_today_black_24dp"/>
+                <TextView
+                    android:id="@+id/date_resact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:text="12 Jan 2018"/>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="6dp"
+                    android:layout_height="6dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@android:color/darker_gray"/>
+                <TextView
+                    android:id="@+id/time_resact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12:00 PM"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp">
+                <ImageView
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="6dp"
+                    android:src="@drawable/ic_people_black_24dp"/>
+                <TextView
+                    android:id="@+id/peep_count_resact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 People"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/status_resact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_green_dark"
+                android:layout_marginTop="5dp"
+                android:text="Reservation Conirmed"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp">
+
+
+    <Button
+        android:id="@+id/delet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Annuler"
+        android:background="@drawable/btn_rounded"
+        android:textColor="#FFF"
+
+        />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modifier"
+            android:background="#96fa91"
+            android:layout_marginLeft="10dp"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

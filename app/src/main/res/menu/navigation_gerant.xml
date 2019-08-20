@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_reservations_gerant"
+        android:icon="@drawable/ic_event_black_24dp"
+        android:title="Réservations" />
+
+    <item
+        android:id="@+id/navigation_plats"
+        android:icon="@drawable/ic_restaurant_black_24dp"
+        android:title="Plats" />
+
+
+</menu>
