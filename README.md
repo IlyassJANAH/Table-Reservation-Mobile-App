@@ -6,8 +6,8 @@ Ceci est mon projet de fin du 3e semestre réalisé lors ma 2e année à l'ENSIA
 
 # Consignes respectées
 
-Architecture MVC
-Affichage d'une liste dans un RecyclerView
-Affichage du détail d'un item de la liste
-Stockage des données persistant sur FireBase
-Animation entre les activités
+* Architecture MVC
+* Affichage d'une liste dans un RecyclerView
+* Affichage du détail d'un item de la liste
+* Stockage des données persistant sur FireBase
+* Animation entre les activités
