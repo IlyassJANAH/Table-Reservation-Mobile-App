@@ -3,12 +3,12 @@ Application mobile de réservation des tables dans des restaurants
 
 **Présentation**
 
-Ceci est mon projet de fin du 3e semestre réalisé lors ma 2e année à l'ENSIAS.L'application permet d'ajouter des restaurants à au FireBase et peuvent être trouvés dans l'application et chaque réservation faite via l'application sera envoyé comme une demande aux restaurants, qui aura le choix soit de l'accepter ou la refuser.
+Application mobile permettant à un client de visualiser des restaurants et leurs menus et par la suite faire une réservation. L’application permettra au gérant de chaque restaurant de visualiser les réservations de son restaurant et aura le choix entre l'accepter ou la refuser.
+Cette application permettra aux administrateurs d'avoir un dispositif de gestion des utilisateurs, et gestion des restaurants.
 
 **Consignes respectées**
 
 * Architecture MVC
-* Affichage d'une liste dans un RecyclerView
-* Affichage du détail d'un item de la liste
 * Stockage des données persistant sur FireBase
-* Animation entre les activités
+
+# Screenshot
